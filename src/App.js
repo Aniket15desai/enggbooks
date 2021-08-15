@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        <h1>Books for Enginnering Students</h1>
+        
         <nav>
           <ul className="list-non-bullet nav-pills">
             {categories.map((category, index) => {
@@ -34,6 +34,8 @@ export default function App() {
             })}
           </ul>
         </nav>
+
+        <h1>Books for Enginnering Students</h1>
       </header>
       <div className="container">
         {bookData[selectedCategory].map((bookDetails) => {

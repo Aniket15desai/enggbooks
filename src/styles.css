@@ -16,8 +16,7 @@ body {
 }
 
 .App {
-  width: 85%;
-  max-width: 700px;
+  width: 100%;
   margin: 0 auto;
   /* background-color: #B8DFD8; */
 }
@@ -41,6 +40,8 @@ body {
 
 nav {
   margin: 0 auto;
+  background-color: darkgreen;
+  width: 100%;
 }
 
 nav ul {
@@ -67,7 +68,7 @@ nav li {
 } */
 
 .book-card {
-  width: 70%;
+  width: 35%;
   margin: 1rem auto;
   padding: 1rem;
   border: 1px solid rgb(172, 214, 207);
@@ -97,4 +98,11 @@ nav li {
   padding: 0.5rem;
   margin: 1rem 0.5rem;
   border-radius: 3rem;
+}
+
+
+@media(max-width: 760px){
+  .book-card{
+    width: 90%;
+  }
 }
